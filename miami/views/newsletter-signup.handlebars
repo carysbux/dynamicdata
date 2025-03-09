@@ -1,0 +1,60 @@
+<h2>Sign up to our newsletter to receive news and specials!</h2>
+<form class="form-horizontal" action="/newsletter-signup/process" role="form" method="POST">
+
+<input type="hidden" name="_csrf" value="{{csrf}}">
+
+<div class="form-group">
+    <label for="fieldFirstName" class="col-sm-2 control-label">First Name</label>
+    <div class="col-sm-4">
+        <input type="text" name="firstname" class="form-control" id="fieldFirstName" required>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="fieldLastName" class="col-sm-2 control-label">Last Name</label>
+    <div class="col-sm-4">
+        <input type="text" name="lastname" class="form-control" id="fieldLastName" required>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="fieldAddress" class="col-sm-2 control-label">Address</label>
+    <div class="col-sm-4">
+        <input type="text" name="address" class="form-control" id="fieldAddress" required>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="fieldCity" class="col-sm-2 control-label">City</label>
+    <div class="col-sm-4">
+        <input type="text" name="city" class="form-control" id="fieldCity" required>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="fieldState" class="col-sm-2 control-label">State</label>
+    <div class="col-sm-4">
+        <input type="text" name="state" class="form-control" id="fieldState" required>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="fieldZip" class="col-sm-2 control-label">Zip</label>
+    <div class="col-sm-4">
+        <input type="text" name="zip" class="form-control" id="fieldZip" required>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="fieldEmail">Email</label>
+    <div class="col-sm-4">
+        <input type="email" class="form-control" name="email" id="fieldEmail" required>
+    </div>
+</div>
+
+<div class="form-group">
+    <div class="col-sm-offset-2 col-sm-4">
+        <button class="btn btn-primary" type="submit">Register</button>
+    </div>
+</div>
+</form>

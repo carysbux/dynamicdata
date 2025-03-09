@@ -1,0 +1,28 @@
+<table class="table table-striped">
+
+    <tr>
+        <th>First</th>
+        <th>Last</th>
+        <th>E-Mail</th>
+        <th>Actions</th>
+    </tr>
+
+    {{#each users}}
+
+    <tr>
+
+        <td>{{this.firstname}}</td>
+        <td>{{this.lastname}}</td>
+        <td>{{this.email}}</td>
+
+        <td>
+            <a href="/newsletter/detail/{{this.email}}"> View</a>
+            |
+            <a href="/newsletter/delete/{{this.email}}"> Delete </a>
+        </td>
+
+        <td>View | Delete</td>
+    </tr>
+
+    {{/each}}
+</table>

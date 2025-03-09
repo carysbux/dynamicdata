@@ -1,0 +1,14 @@
+<div class="row owl-carousel owl-theme">
+    
+    {{#each locations}}
+
+<div class="card">
+  <img src="{{this.image}}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h3>{{this.name}}</h3>
+    <p class="card-text">{{this.description}}</p>
+  </div>
+</div>
+
+     {{/each }}
+</div>

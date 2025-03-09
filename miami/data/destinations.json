@@ -1,0 +1,53 @@
+{
+
+    "locations": [
+        {
+            "page":"nightlife",
+            "name":"Factory Town",
+            "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit.Qui quisquam vitae temporibus accusa",
+            "image":"/images/destinations/place.jpg"
+        },
+        {
+            "page":"nightlife",
+            "name":"Bar",
+            "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit.Qui quisquam vitae temporibus accusa",
+            "image":"/images/destinations/place.jpg"
+        },
+        {
+            "page":"nightlife",
+            "name":"Lagniappe",
+            "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit.Qui quisquam vitae temporibus accusa",
+            "image":"/images/destinations/place.jpg"
+        },
+        {
+            "page":"nightlife",
+            "name":"Space",
+            "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit.Qui quisquam vitae temporibus accusa",
+            "image":"/images/destinations/place.jpg"
+        },
+        {
+            "page":"beaches",
+            "name":"Mid Beach ",
+            "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit.Qui quisquam vitae temporibus accusa",
+            "image":"/images/destinations/place.jpg"
+        },
+        {
+            "page":"beaches",
+            "name":"Virginia Key",
+            "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit.Qui quisquam vitae temporibus accusa",
+            "image":"/images/destinations/place.jpg"
+        },
+        {
+            "page":"beaches",
+            "name":"Crandon Park",
+            "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit.Qui quisquam vitae temporibus accusa",
+            "image":"/images/destinations/place.jpg"
+        },
+        {
+            "page":"beaches",
+            "name":"South Beach",
+            "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit.Qui quisquam vitae temporibus accusa",
+            "image":"/images/destinations/place.jpg"
+        }
+    ]
+}

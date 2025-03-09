@@ -1,0 +1,48 @@
+{
+
+    "slides":[
+
+        {
+            "url":"/images/slides/slide1.jpg",
+
+            "home":true,
+
+            "page":"beaches"
+        },
+        {
+            "url":"/images/slides/slide2.jpg",
+
+            "home":false,
+
+            "page":"nightlife"
+        },
+        {
+            "url":"/images/slides/slide3.jpg",
+
+            "home":true,
+
+            "page":"nightlife"
+        },
+        {
+            "url":"/images/slides/slide4.jpg",
+
+            "home":true,
+
+            "page":"nightlife"
+        },
+        {
+            "url":"/images/slides/slide5.jpg",
+
+            "home":false,
+
+            "page":"beaches"
+        },
+        {
+            "url":"/images/slides/slide6.jpg",
+
+            "home":true,
+
+            "page":"nightlife"
+        }
+    ]
+}

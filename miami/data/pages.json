@@ -1,0 +1,14 @@
+{
+    "pages": [
+        {
+            "page": "nightlife",
+            "title": "Miami at night",
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero temporibus perspiciatis aut tempora quasi. Qui quisquam vitae temporibus accusamus voluptate voluptates consequuntur odio aperiam! In nulla doloribus excepturi animi tempore!"
+        },
+        {
+            "page": "beaches",
+            "title": "Miami's beaches",
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero temporibus perspiciatis aut tempora quasi. Qui quisquam vitae temporibus accusamus voluptate voluptates consequuntur odio aperiam! In nulla doloribus excepturi animi tempore!"
+        }
+    ]
+}
