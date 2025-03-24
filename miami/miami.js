@@ -24,7 +24,7 @@ app.engine('handlebars', handlebars.engine());
 app.set('view engine', 'handlebars');
 
 // To set the port execute: port=8080 node miami  
-const port = process.env.port || 3000
+const port = process.env.PORT || 3000
 
 
 let navigation = require("./data/navigation.json")

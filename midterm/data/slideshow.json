@@ -1,0 +1,30 @@
+{
+    "slides": [
+        {
+            "url": "/images/slideshow/indoor-plants.jpeg",
+            "home": true,
+            "page": "indoors"
+        },
+        {
+            "url": "/images/slideshow/indoor-plants-2.JPG",
+            "home": true,
+            "page": "indoors"
+        },
+        {
+            "url": "/images/slideshow/outdoor-plants.JPG",
+            "home": true,
+            "page": "outdoors"
+        },
+        {
+            "url": "/images/slideshow/veggies.JPG",
+            "home": true,
+            "page": "veggies"
+        },
+        {
+            "url": "/images/slideshow/lettuce.jpeg",
+            "home": false,
+            "page": "about"
+        }
+
+    ]
+}

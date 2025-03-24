@@ -1,0 +1,29 @@
+{
+    "brand": {
+        "name": "Starter Garden",
+        "link": "/",
+        "img": "/img/logo.png"
+    },
+    "links": [
+        {
+            "text": "Home",
+            "href": "/"
+        },
+        {
+            "text": "Indoor Plants",
+            "href": "/page/indoors"
+        },
+        {
+            "text": "Outdoor Plants",
+            "href": "/page/outdoors"
+        },
+        {
+            "text": "Vegetables",
+            "href": "/page/veggies"
+        },
+        {
+            "text": "My Story",
+            "href": "/page/about"
+        }
+    ]
+}

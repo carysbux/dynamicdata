@@ -1,0 +1,73 @@
+{
+
+    "plants": [
+        {
+            "page":"indoors",
+            "name":"Pothos",
+            "description":"A hardy, trailing vine with heart-shaped leaves, known for its air-purifying qualities and ability to thrive in low light.",
+            "image":"/images/plants/pothos.jpg"
+        },
+        {
+            "page":"indoors",
+            "name":"Spider Plant",
+            "description":"A resilient houseplant with arching green-and-white striped leaves, producing small offshoots resembling spiders.",
+            "image":"/images/plants/spider-plant.jpg"
+        },
+        {
+            "page":"indoors",
+            "name":"Tradescantia",
+            "description":"A fast-growing, trailing plant with vibrant purple, green, or variegated foliage, loved for its striking colors and easy care.",
+            "image":"/images/plants/tradescantia.jpg"
+        },
+        {
+            "page":"outdoors",
+            "name":"Agave",
+            "description":"A succulent with thick, spiky leaves arranged in a rosette, commonly used in xeriscaping and known for producing tequila.",
+            "image":"/images/plants/agave.jpg"
+        },
+        {
+            "page":"outdoors",
+            "name":"Areca Palm",
+            "description":"A graceful, feathery palm that thrives indoors, adding a tropical feel while improving air quality.",
+            "image":"/images/plants/areca-palm.jpg"
+        },
+        {
+            "page":"outdoors",
+            "name":"Armeria",
+            "description":"A low-growing perennial with tufted, grass-like foliage and clusters of small, pink or white flowers.",
+            "image":"/images/plants/armeria.png"
+        },
+        {
+            "page":"outdoors",
+            "name":"Begonia",
+            "description":"Shade-loving plants with vibrant flowers and unique foliage, available in many varieties suited for both indoor and outdoor growth.",
+            "image":"/images/plants/begonia.jpg"
+        },
+        {
+            "page":"veggies",
+            "name":"Radishes",
+            "description":"Plant radish seeds in loose, well-draining soil with full sun, spacing them about an inch apart. Keep the soil consistently moist, and they will be ready to harvest in 3–4 weeks. Thin seedlings early to prevent overcrowding for proper root development.",
+            "image":"/images/plants/Radish.jpg"
+        },
+        {
+            "page":"veggies",
+            "name":"Carrots",
+            "description":"Plant carrot seeds directly in loose, sandy soil free of rocks, spacing them about 2 inches apart in full sun. Keep the soil evenly moist and thin seedlings once they sprout to allow proper root growth. Avoid heavy fertilizers to prevent misshapen roots.",
+            "image":"/images/plants/carrots.jpg"
+        },
+        {
+            "page":"veggies",
+            "name":"Lettuce",
+            "description":"Sow lettuce seeds in cool weather, either in early spring or fall, in well-draining soil with partial to full sun. Keep the soil moist and harvest leaves as needed to encourage continuous growth. Space plants properly to prevent overcrowding and improve airflow.",
+            "image":"/images/plants/lettuce.jpg"
+        },
+        {
+            "page":"veggies",
+            "name":"Microgreens",
+            "description":"Sow seeds densely in a shallow container with well-draining soil and place them in bright, indirect light. Keep the soil consistently moist and mist regularly to prevent drying out. Harvest in 7–14 days by cutting just above the soil line when the first true leaves appear.",
+            "image":"/images/plants/microgreens.jpg"
+        }
+
+
+    ]
+}

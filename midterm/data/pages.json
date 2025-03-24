@@ -1,0 +1,24 @@
+{
+    "pages": [
+        {
+            "page": "indoors",
+            "title": "Indoor Plants",
+            "description": "Here are the best plants to grow indoors as a beginner gardener."
+        },
+        {
+            "page": "outdoors",
+            "title": "Outdoor Plants",
+            "description": "Here are the best plants to grow outdoors as a beginner gardener."
+        },
+        {
+            "page": "veggies",
+            "title": "Vegetables",
+            "description": "Here are the easiest vegetables to grow at home as a beginner gardener."
+        },
+        {
+            "page": "about",
+            "title": "My story",
+            "description": "Gardening is a low-risk, high-reward activity that brings both relaxation and satisfaction. It teaches patience and delayed gratification, offering a grounding contrast to the fast pace of daily life. My interest in gardening began as part of a healthy eating journey and was inspired by my mother’s beautiful gardens. Growing food at home provides fresh, nutritious options, while flowers and herbs make meaningful, personal gifts. The process is self-rewarding, whether enjoyed alone for peace of mind or shared with others as a collaborative hobby."
+        }
+    ]
+}
