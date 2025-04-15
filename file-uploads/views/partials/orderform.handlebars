@@ -1,0 +1,61 @@
+<form method="post" action="/order/create" enctype="application/x-www-form-urlencoded">
+
+<input type="text" value="{{customer.id}}" name="cid">
+
+  <div class="mb-3">
+    <label for="size" class="form-label">Size</label>
+
+    <select class="form-select" aria-label="select size" name="size">
+  <option selected>Select a size</option>
+  <option value="S">Small</option>
+  <option value="M">Medium</option>
+  <option value="L">Large</option>
+  <option value="XL">X-Large</option>
+</select>
+
+  </div>
+
+  <div class="mb-3">
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="ham" id="toppings_ham" name="toppings[]">
+  <label class="form-check-label" for="toppings">
+    Ham $3.50
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="pepperoni" id="toppings_p" name="toppings[]">
+  <label class="form-check-label" for="toppings">
+    Pepperoni $3.00
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="mushrooms" id="toppings_m" name="toppings[]">
+  <label class="form-check-label" for="toppings">
+    Mushrooms $2.00
+  </label>
+</div>
+
+  </div>
+
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+
+  <div class="mb-3">
+    <label for="size" class="form-label">Size</label>
+
+    <select class="form-select" aria-label="select staus" name="status">
+  <option selected value="New" > New </option>
+  <option value="Processing">Processing</option>
+  <option value="Completed">Completed</option>
+</select>
+
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>

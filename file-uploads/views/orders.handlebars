@@ -1,0 +1,38 @@
+<div class="row">
+    <div class="col-lg-8">
+        <h1>Orders</h1>
+    </div>
+</div>
+
+<div class="row">
+    <table class="table table-striped">
+        <tr scope="row">
+            <td>
+                <div class="row">
+                    <div class="col">id</div>
+                    <div class="col">Customer</div>
+                    <div class="col">Size</div>
+                    <div class="col">Total</div>
+                    <div class="col">Actions</div>
+                </div>    
+            </td>
+        </tr>
+        {{#each orders}}
+<tr scope="row">
+            <td>
+                <div class="row">
+                    <div class="col">{{this.dataValues.id}}</div>
+                    <div class="col">
+                        {{this.dataValues.Customer.dataValues.first_name}}
+                        {{this.dataValues.Customer.dataValues.last_name}}
+                        </div>
+                    <div class="col">{{this.dataValues.size}}</div>
+                    <div class="col">{{this.dataValues.total}}</div>
+                    <div class="col">View Edit Delete </div>
+                </div>    
+            </td>
+        </tr>
+        {{/each}}
+
+</table>
+</div>     

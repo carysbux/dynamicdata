@@ -1,0 +1,80 @@
+<div class="row">
+    <div class="col-lg-8">
+        <h1>Customer Details</h1>
+    </div>
+</div>
+
+<div class="row">
+    <table class="table table-striped">
+        <tr scope="row">
+            <td>
+                <div class="row">
+                    <div class="col">id</div>
+                    <div class="col">Full Name</div>
+                    <div class="col">Email</div>
+                    <div class="col">Phone</div>
+                    <div class="col">Actions</div>
+            </td>
+        </tr>
+
+        <tr scope="row">
+            <td>
+                <div class="row">
+                    <div class="col">
+                        {{customers.id}}
+                    </div>
+                    <div class="col">
+                        {{customers.first_name}} {{customers.last_name}}
+                    </div>
+                    <div class="col">
+                        {{customers.email}}
+                    </div>
+                    <div class="col">
+                        {{customers.phone}}
+                    </div>
+                    <div class="col">
+                        <a href="/customer/edit/{{customers.id}}">Edit</a>
+                        <a href="/customer/delete/{{customers.id}}">Delete</a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <table class="table table-striped">
+        <tr scope="row">
+            <td>
+                <div class="row">
+                    <div class="col"> </div>
+                    <div class="col">Address</div>
+                    <div class="col">City</div>
+                    <div class="col">State</div>
+                    <div class="col">Zip</div>
+            </td>
+        </tr>
+
+        <tr scope="row">
+            <td>
+                <div class="row">
+                    <div class="col">
+
+                    </div>
+                    <div class="col">
+                        {{customers.address}}
+                    </div>
+                    <div class="col">
+                        {{customers.city}}
+                    </div>
+                    <div class="col">
+                        {{customers.state}}
+                    </div>
+                    <div class="col">
+                        {{customers.zip}}
+                    </div>
+
+                </div>
+            </td>
+        </tr>
+
+    </table>
+</div>

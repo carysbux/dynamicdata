@@ -1,0 +1,40 @@
+<h1>Customer Information</h1>
+{{!-- Customer Form --}}
+<form method="post" action="/customer/{{#if customers.id}}edit{{else}}create{{/if}}" enctype="application/x-www-form-urlencoded">
+{{#if customers.id }}<input name="id" value="{{customers.id}}">{{/if}}
+  <div class="mb-3">
+    <label for="first_name" class="form-label">First Name</label>
+    <input name="first_name" type="text" class="form-control" id="first_name" {{#if customers.first_name }}value="{{customers.first_name}}{{/if}}">
+  </div>
+  <div class="mb-3">
+    <label for="last_name" class="form-label">Last Name</label>
+    <input name="last_name" type="text" class="form-control" id="last_name" {{#if customers.last_name }}value="{{customers.last_name}}{{/if}}">
+  </div>
+  <div class="mb-3">
+    <label for="address" class="form-label">Address</label>
+    <input name="address" type="text" class="form-control" id="address" {{#if customers.address }}value="{{customers.address}}{{/if}}">
+  </div>
+  <div class="mb-3">
+    <label for="city" class="form-label">City</label>
+    <input name="city" type="text" class="form-control" id="city" {{#if customers.city }}value="{{customers.city}}{{/if}}">
+  </div>
+  <div class="mb-3">
+    <label for="state" class="form-label">State</label>
+    <input name="state" type="text" class="form-control" id="state" {{#if customers.state }}value="{{customers.state}}{{/if}}">
+  </div>
+  <div class="mb-3">
+    <label for="zip" class="form-label">Zip</label>
+    <input name="zip" type="text" class="form-control" id="zip" {{#if customers.zip }}value="{{customers.zip}}{{/if}}">
+  </div>
+  <div class="mb-3">
+    <label for="phone" class="form-label">Phone</label>
+    <input name="phone" type="tel" class="form-control" id="phone" {{#if customers.phone }}value="{{customers.phone}}{{/if}}">
+  </div>
+    <div class="mb-3">
+    <label for="email" class="form-label">Email</label>
+    <input name="email" type="email" class="form-control" id="email" {{#if customers.email }}value="{{customers.email}}{{/if}}">
+  </div>
+
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
